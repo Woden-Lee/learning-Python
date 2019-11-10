@@ -44,4 +44,4 @@ for quizNum in range(35):
         #write the answer key to a file
         answerfile.write('%s.%s\n' % (questionNum + 1,'ABCD'[answerOptions.index(correctanswers)]))
     quizfile.close()
-    answerfile.close() 
+    answerfile.close()
